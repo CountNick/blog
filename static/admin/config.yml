@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: CountNick/netlify-cms
+  repo: CountNick/blog
 
 media_folder: static/assets
 public_folder: /assets
