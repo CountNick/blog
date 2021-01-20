@@ -1,14 +1,14 @@
 backend:
-  name: github
-  repo: CountNick/blog
+  name: git-gateway
+  repo: main
 
 media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
     create: true
     fields:
       - { name: path, label: Path }
