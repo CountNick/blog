@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: CountNick/blog
+  branch: main
 
 media_folder: static/assets
 public_folder: /assets
