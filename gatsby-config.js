@@ -11,11 +11,10 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages`,
+        name: `markdown-pages`,
+        path: `${__dirname}/blog`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify-cms`
     ],
 }
