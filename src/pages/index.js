@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from 'gatsby'
 
 export default function Home({data}) {
-
+  console.log(data)
   return <>
   {data.allMarkdownRemark.edges.map(blogPost => (
     <h1 className="station" key={blogPost.node.frontmatter.date}>{blogPost.node.frontmatter.title}</h1>
