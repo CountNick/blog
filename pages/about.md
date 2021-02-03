@@ -2,4 +2,8 @@
 title: About
 path: about
 ---
-This is the about page yess
+![](/assets/water-pumps-2.jpg)
+
+
+
+Here some info on the about page I just added.
