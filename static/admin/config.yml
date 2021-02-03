@@ -19,17 +19,14 @@ collections:
     label: "Pages"
     files:
       - file: "pages/index.md"
-        label: "About"
-        name: "about"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page.template"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "pages/index.md"
         label: "Home"
         name: "home"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page.template"}
-          - {label: "Smoothies Section Heading", name: "smoothiesHeading", widget: "string"}
-          - {label: "Posts Section Heading", name: "postsHeading", widget: "string"}
-          - {label: "Contact Section Heading", name: "contactHeading", widget: "string"}
+          - { name: title, label: Title }
+          - { name: body, label: Body, widget: markdown }
+      - file: "pages/about.md"
+        label: "About"
+        name: "about"
+        fields:
+          - { name: title, label: Title }
+          - { name: body, label: Body, widget: markdown }
