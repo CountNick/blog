@@ -8,7 +8,7 @@ export default function pageTemplate({ data }) {
     return (
           <div>
             <h1>{page.frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div dangerouslySetInnerHTML={{ __html: page.html }} />
           </div>
       )
 }
